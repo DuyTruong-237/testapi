@@ -19,12 +19,12 @@ app.get('/api/v2/greeting', (req, res) => {
 });
 app.post('/api/v2/greeting', (req, res) => {
     const data= req.body;
-    console.log(body)
+    console.log(data)
     res.json({"name":"lucas" });
 });
 app.put('/api/v2/greeting', (req, res) => {
     const data= req.body;
-    console.log(body)
+    console.log(data)
     res.json({"name":"lucas" });
 });
 
