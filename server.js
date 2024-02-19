@@ -14,6 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/api/v2/greeting', (req, res) => {
+    console.log("111111111111111111111111111111")
     res.json({ message: 'Hello, world!' });
 });
 
