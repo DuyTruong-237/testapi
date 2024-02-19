@@ -24,7 +24,7 @@ app.post('/api/v2/greeting', (req, res) => {
 });
 app.put('/api/v2/greeting', (req, res) => {
     const data= req.body;
-    console.log("this is put api")
+    console.log(body)
     res.json({"name":"lucas" });
 });
 
