@@ -22,6 +22,11 @@ app.post('/api/v2/greeting', (req, res) => {
     console.log("this is post api")
     res.json({"name":"lucas" });
 });
+app.put('/api/v2/greeting', (req, res) => {
+    const data= req.body;
+    console.log("this is put api")
+    res.json({"name":"lucas" });
+});
 
 
 app.listen(3001,()=>{
